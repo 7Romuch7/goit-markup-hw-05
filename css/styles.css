@@ -312,6 +312,10 @@ ul {
     padding-top: 0;
 }
 
+.activity-list-item {
+    position: relative;
+}
+
 .activity-list {
     display: flex;
     margin-top: 0;
@@ -336,10 +340,6 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
-}
-
-.activity-list-item {
-    position: relative;
 }
 
 /* team */
