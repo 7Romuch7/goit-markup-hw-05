@@ -643,6 +643,10 @@ ul {
     width: 370px;
 }
 
+.card-active {
+    position: relative;
+}
+
 .card-content {
     padding: 20px 24px;
     background: var(--white-color);
@@ -665,7 +669,7 @@ ul {
 
 .works-list .description {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 
     color: var(--primary-text-color);
     font-size: 16px;
@@ -673,11 +677,21 @@ ul {
 }
 
 .works-list .description-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 294px;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.56;
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     color: var(--white-color);
-    background-color: blue;  
+    background-color: var(--accent-color);  
 }
 
 .works-list-item {
